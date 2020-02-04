@@ -10,7 +10,7 @@
 
 #include "nvbuf_utils.h"
 
-#define INPUT_BUFFER_LAYOUT (NvBufferLayout_Pitch)
+#define INPUT_BUFFER_LAYOUT (NvBufferLayout_BlockLinear)
 #define OUTPUT_BUFFER_LAYOUT (NvBufferLayout_Pitch)
 
 #define RED_VAL (0x10)
